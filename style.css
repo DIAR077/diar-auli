@@ -1,0 +1,210 @@
+<style>
+        *{
+            margin: 0;
+        }
+        nav{
+            min-width: 100vw;
+            background:linear-gradient(to left,skyblue,rgb(43, 205, 226)) ;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 90px;
+        }
+        .list1{
+            display: flex;
+            gap: 25px;
+        }
+        nav ul li{
+            list-style-type: none;
+        }
+        nav ul li a{
+            text-decoration: none;
+        }
+        .gambar{
+            margin-left: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            gap: 30px;
+            letter-spacing: 5px;
+        }
+        img{
+            width: 200px;
+            height: 110px;
+        }
+        .talk-btn{
+            margin-right: 60px;
+            
+        }
+        button{
+            margin-right: 60px;
+            background: linear-gradient(to left,rgb(39, 196, 235),rgb(27, 197, 219));
+            padding: 10px 25px;
+            border-radius: 25px;
+            border: none;
+            color: black;
+        }
+        button:hover{
+            background: linear-gradient(to left,pink,violet);
+        }
+        .nama{
+            color: antiquewhite;
+            font-weight: 900;
+        }
+        .judul1{
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 25px;
+            font-size: 38px;
+            font-weight: 900;
+            color: rgb(30, 217, 230);
+            text-shadow:  0 0 15px white;
+            letter-spacing: 2px;
+            margin-bottom: 30px;
+        }
+        .content1{
+            background: linear-gradient(to left,white,blue);
+            padding: 80px 100px;
+            align-items: center;
+        }
+        .isi1 p {
+            max-width: 800px;
+            line-height: 1.7;
+            background: transparent;
+            backdrop-filter: blur(10px);
+            padding: 20px 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgb(7, 218, 233);
+            color: black;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .ver{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        img.asu{
+            width: 350px;
+            height: 200px;
+        }
+        .logo{
+            width: 100px ;
+            height: 55px ;
+        }
+        .isi1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 40px;
+            margin-top: 30px;
+        }
+        img.ds{
+            width: 500px;
+            height: 400px;
+        }
+        .contect2{
+            background: linear-gradient(to left,rgb(20, 193, 216),);
+            padding: 80px 100px;
+        }
+        .judul2{
+            text-align: center;
+            font-size: 35px;
+            font-weight: 700;
+            color: rgb(47, 211, 223);
+            margin-top: 40px;
+        }
+        .isi2{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 60px;
+        }
+        .isi2 p {
+            background: transparent;
+            backdrop-filter: blur(12px);
+            padding: 20px 25px;
+            border-radius: 15px;
+            color: black;
+            box-shadow: 0 0 15px rgb(43, 214, 226);
+            line-height: 1.6;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        img.cyber{
+            width: 500px;
+            height: 400px;
+        }
+        .contect3{
+            background: linear-gradient(to left,white,rgb(43, 214, 226));
+            padding: 80px 100px;
+            text-align: center;
+        }
+        .isi3 p {
+            max-width: 800px;
+            line-height: 1.7;
+            background: transparent;
+            backdrop-filter: blur(10px);
+            padding: 20px 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgb(20, 20, 20);
+            color: rgb(0, 0, 0);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+        .isi3{
+            display: flex;
+            flex-direction: column; 
+            align-items: center;
+            gap: 40px;
+            margin-top: 30px;
+        }
+        img.JG{
+            width: 500px;
+            height: 400px;
+        }
+        .judul3{
+            font-family: Arial, Helvetica, sans-serif;
+            align-items: center;
+            font-size: 30px;
+            font-weight: 900;
+            color: rgb(44, 188, 214);
+            text-shadow: 0 0 15px rgb(43, 205, 226);
+            letter-spacing: 2 px;
+            margin-bottom: 30px;
+        }
+        footer{
+            background: linear-gradient(to left,black,rgb(31, 214, 214));
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 0;
+            gap: 20px;
+            box-shadow: 0  -4px black;
+        }
+        footer h2{
+            font-size: 25px;
+            font-weight: 400;
+        }
+        .abautus ul{
+            display: flex;
+            gap: 30px;
+            list-style: none;
+        }
+        .abautus ul li a{
+            text-decoration: none;
+            color: azure;
+            font-weight: bold;
+            transition: color 0.03s ease;
+        }
+        .abatus ul li a:hover{
+            color: blue;
+        }
+        .copy{
+            font-size: 25px;
+            color: aqua;
+        }
